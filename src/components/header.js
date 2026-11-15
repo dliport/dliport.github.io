@@ -4,7 +4,7 @@ export function Header() {
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="David Li — home">David Li<span class="brand-period">.</span></a>
       <nav class="header-nav" aria-label="Primary navigation">
-        <a href="#work">Research & projects</a><a href="#recognition">Recognition</a><a href="#beyond">Beyond academics</a>
+        <a href="#work">Research</a><a href="#publications">Publications</a><a href="#software">SPEFA</a><a href="#recognition">Recognition</a><a href="#beyond">Beyond academics</a>
       </nav>
       <a class="header-resume" href="${profile.resume}" target="_blank" rel="noopener noreferrer">Résumé <span aria-hidden="true">↗</span></a>
     </div>

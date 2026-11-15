@@ -1,7 +1,7 @@
 import { beyond, profile } from '../content.js';
 export function About() {
   return `<section class="section container beyond" id="beyond" aria-labelledby="beyond-title">
-    <div class="section-title"><span class="section-count">03 / BEYOND ACADEMICS</span><h2 id="beyond-title">Beyond the classroom</h2></div>
+    <div class="section-title"><span class="section-count">06 / BEYOND ACADEMICS</span><h2 id="beyond-title">Beyond the classroom</h2></div>
     <div class="beyond-grid">${beyond.map(item=>`<article class="beyond-item"><h3>${item.title}</h3><p>${item.description}</p></article>`).join('')}</div>
   </section>`;
 }
