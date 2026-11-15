@@ -6,7 +6,7 @@ export const profile = {
   year: '2027',
   location: 'Thousand Oaks, CA',
   email: 'DLi134360@gmail.com',
-  resume: 'assets/David_Li_Resume.pdf',
+  resume: 'assets/david_resume.pdf',
   github: 'https://github.com/dliport',
 };
 
