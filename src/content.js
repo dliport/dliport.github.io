@@ -24,7 +24,7 @@ export const research = {
   facts: [
     { title: 'Dataset', text: '≈32,000 labeled, three-second speech clips' },
     { title: 'Focus', text: 'Detection, localization, and fluency reconstruction' },
-    { title: 'Recognition', text: '2026 science-fair first place; IEEE EMBC poster; 2025 ICIBM oral presentation' },
+    { title: 'Recognition', text: 'AIAS 2026 Best Poster Award; 2026 science-fair first place; IEEE EMBC poster; 2025 ICIBM oral presentation' },
   ],
 };
 
@@ -58,24 +58,26 @@ export const publications = [
     title: 'A Privacy-Preserving On-Device AI System for Stuttering Detection and Reference-Free Fluency Reconstruction on Smartphones',
     venue: 'Journal of Fluency Disorders',
     detail: 'On-device speech AI for privacy-preserving stuttering detection and fluent-speech reconstruction.',
-    links: [{ label: 'Read manuscript (PDF)', href: 'assets/ai.stuttering.privacy.preserving.pdf' }],
+    links: [{ label: 'Read manuscript (PDF)', href: 'https://dliport.github.io/assets/ai.stuttering.privacy.preserving.pdf' }],
   },
   {
     status: 'Completed · Summer 2026 · Submission planned',
     title: 'When RSA Encryption Becomes Vulnerable: The Role of Prime Separation in Fermat Factorization',
     venue: 'Independent mathematics and cybersecurity research manuscript',
     detail: 'Examines how prime separation affects the vulnerability of RSA encryption to Fermat factorization.',
-    links: [{ label: 'Read manuscript (PDF)', href: 'assets/math.cybersecurity.pdf' }],
+    links: [{ label: 'Read manuscript (PDF)', href: 'https://dliport.github.io/assets/math.cybersecurity.pdf' }],
   },
 ];
 
 export const presentations = [
+  { year: '2026', title: 'An Artificial Intelligence System For Stuttering Detection and Fluency Reconstruction', description: 'Best Poster Award · Symposium on AI Advancing Science & Society (AIAS 2026) · San Francisco · November 2026.' },
   { year: '2026', title: 'Towards Natural Speech: Attention-Based Detection, Localization, and Reference-Free Fluency Reconstruction of Stuttering Speech', description: 'Late-breaking abstract and poster · 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (IEEE EMBC) · Toronto, Canada.' },
   { year: '2026', title: 'Plasma Cell-Free DNA Methylation Markers for Cancer Detection', description: 'Poster · 117th Annual Conference of the American Association for Cancer Research (AACR) · San Diego, California.' },
   { year: '2025', title: 'AI-based stuttering detection', description: 'Oral presentation at the 13th International Conference on Intelligent Biology and Medicine (ICIBM) · Columbus, Ohio; received a travel award.' },
 ];
 
 export const moreRecognition = [
+  { year: '2026', title: 'AIAS · Best Poster Award', description: 'Symposium on AI Advancing Science & Society, San Francisco · November 2026. Research on AI-based stuttering detection and fluency reconstruction.' },
   { year: '2026', title: 'California State Science and Engineering Fair · Qualifier', description: 'AI-based stuttering detection and fluent-speech reconstruction project.' },
   { year: '2025–2026', title: 'Ventura County Science Fair · 1st & 2nd place', description: 'Research on AI-based stuttering detection and fluent-speech reconstruction.' },
   { year: '2023–2024', title: 'President’s Volunteer Service Award', description: 'Silver and Bronze awards for volunteer service.' },
